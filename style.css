@@ -15,8 +15,8 @@ body {
 .cancha {
     position: relative;
     top: 15px;
-    width: 90vh;
-    height: 90hv;
+    width: 120vh;
+    height: 64vw;
     border-color: white;
     background-color: green;
     border-width: 5px;
@@ -32,7 +32,7 @@ body {
 .zona {
     width: 100%;
     height: 20vh;
-    border: dashed .2rem rgb(10, 218, 10);
+    border: dashed .2rem black;
     background-color:rgb(8, 82, 11);
 
     display: flex;
@@ -42,8 +42,8 @@ body {
 }
 
 .jugador {
-    background-color: blue;
-    height: 6.7rem;
+    background-color: beige;
+    height: 7rem;
     aspect-ratio: 1/1;
     border: .2rem  solid black;
     border-radius: 1rem;
@@ -51,8 +51,26 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 
+    #arquero{
+    background-color: grey;
+    border: .2rem solid blue;
+    }
+
+.numero {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: maroon;
+    color: white;
+    border-radius: 50%;
+    height: 3rem;
+    aspect-ratio: 1/1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
